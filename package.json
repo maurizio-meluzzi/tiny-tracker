@@ -1,4 +1,20 @@
 {
+    "name": "tiny-tracker",
+    "description": "Tiny time tracker for electron",
+    "keywords": [
+        "time tracker"
+    ],
+    "version": "0.0.1",
+    "private": true,
+    "author": "viper",
+    "license": "ISC",
+    "scripts": {
+        "build": "ng build",
+        "ng": "ng",
+        "start": "ng serve",
+        "test": "ng test",
+        "watch": "ng build --watch --configuration development"
+    },
     "dependencies": {
         "@angular/animations": "~13.3.0",
         "@angular/common": "~13.3.0",
@@ -26,14 +42,4 @@
         "karma-jasmine-html-reporter": "~1.7.0",
         "typescript": "~4.6.2"
     },
-    "name": "tiny-tracker",
-    "private": true,
-    "scripts": {
-        "build": "ng build",
-        "ng": "ng",
-        "start": "ng serve",
-        "test": "ng test",
-        "watch": "ng build --watch --configuration development"
-    },
-    "version": "0.0.0"
 }
