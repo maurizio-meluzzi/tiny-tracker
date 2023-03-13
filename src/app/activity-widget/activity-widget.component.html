@@ -1,0 +1,17 @@
+<div class="activity-widget">
+  <form (submit)="onSubmit()">
+    <label>
+      Activity Start:
+      <input type="datetime-local" [(ngModel)]="activityStart" name="activityStart">
+    </label>
+    <label>
+      Activity End:
+      <input type="datetime-local" [(ngModel)]="activityEnd" name="activityEnd">
+    </label>
+    <label>
+      Chosen Activity:
+      <input type="text" [(ngModel)]="chosenActivity" name="chosenActivity">
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</div>
